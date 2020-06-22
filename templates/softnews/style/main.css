@@ -1,0 +1,78 @@
+/* template by Rock Star / http://www.weblancer.net/users/RockStar/portfolio/
+
+	soft news / free version
+	
+	- - - - - - - - - - - - - - - - - - - - - - - -
+	
+		2. main.css, структура сайта					*/
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		#page {padding-left: 5px; padding-right: 5px; width: 1000px;}
+		
+		/* Шапка сайта */
+		
+		#topm {background-image: url(../images/topm.png); width: 100%; height: 56px; display: block; overflow: hidden;}
+		#topl {background-image: url(../images/topl.png); width: 14px; height: 56px; float: left;}
+		#topr {background-image: url(../images/topr.png); width: 14px; height: 56px; float: right;}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - */
+
+ 		.hor-menu ul {padding: 0px; margin: 0px; list-style: none; background: #000 url(../images/topm.png) repeat-x top left;} 
+ 		.hor-menu ul li {float:left;} 
+ 		.hor-menu ul li a { padding-top: 21px; padding-left: 10px; padding-right: 10px; display:block; height:37px; float:left; 
+  		 						  font: 9pt tahoma; color:#8f8f8f; font-weight: bold; text-decoration:none; text-align:center; } 
+ 		.hor-menu ul li a:hover, 
+	   .hor-menu ul li.active a {background: url(../images/topm-hover.png) repeat-x top left; color:#0a92bf;}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		a.logo {background-image: url(../images/logo.png); background-position: top; width: 266px; height: 100px; display: block;}
+		a:hover.logo {background-image: url(../images/logo.png); background-position: bottom;}
+		
+		#head-line {background-image: url(../images/head-line.jpg); width: 5px; height: 82px; margin-top: 13px; margin-left: 12px; margin-right: 23px;}
+		#head-right {background-image: url(../images/head-right.jpg); width: 422px; height: 90px;}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		#spm {background-image: url(../images/spm.jpg); width: 100%; height: 28px; display: block; overflow: hidden;}
+		#spl {background-image: url(../images/spl.jpg); width: 10px; height: 28px; float: left;}
+		#spr {background-image: url(../images/spr.jpg); width: 10px; height: 28px; float: right;}
+		
+		#nsm {background-image: url(../images/nsm.jpg); width: 100%; height: 34px; display: block; overflow: hidden;}
+		#nsl {background-image: url(../images/nsl.jpg); width: 13px; height: 34px; float: left;}
+		#nsr {background-image: url(../images/nsr.jpg); width: 13px; height: 34px; float: right;}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.cbt {background-image: url(../images/cbt.jpg); width: 228px; height: 64px; display: block; overflow: hidden;} 
+		.cbm {background-image: url(../images/cbm.jpg); background-repeat: repeat-x; width: 228px; background-color: #1d5d88; display: block;}
+		.cbb {background-image: url(../images/cbb.jpg); width: 228px; height: 23px; display: block;}
+		.cbm-pad {padding-left: 12px; padding-right: 8px; padding-top: 10px;}
+		.cbt-pad {float: right; padding-right: 18px; padding-top: 15px;}
+		
+		.gbt {background-image: url(../images/gbt.jpg); width: 228px; height: 64px; display: block; overflow: hidden;} 
+		.gbm {background-image: url(../images/gbm.jpg); background-repeat: repeat-x; width: 228px; background-color: #dddddd; display: block;}
+		.gbb {background-image: url(../images/gbb.jpg); width: 228px; height: 23px; display: block;}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.ncm {background-image: url(../images/ncm.jpg); width: 424px; height: 26px; display: block; overflow: hidden;}
+		.ncl {background-image: url(../images/ncl.jpg); width: 10px; height: 26px; float: left;}
+		.ncr {background-image: url(../images/ncr.jpg); width: 10px; height: 26px; float: right;}
+		
+		.shadow-news {background-image: url(../images/shadow-news.jpg); width: 400px; height: 32px; display: block; margin-top: 8px; margin-bottom: 4px;}
+		
+		.comments-block {background-image: url(../images/comments.jpg); width: 543px; height: 93px; display: block; overflow: hidden;}
+		.comments-bottom {background-image: url(../images/comments-bottom.jpg); width: 543px; height: 38px; display: block; overflow: hidden; margin-top: 7px;}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		#copy-m {background-image: url(../images/copy-m.jpg); height: 127px; display: block; overflow: hidden;}
+		#copy-l {background-image: url(../images/copy-l.jpg); width: 17px; height: 127px; float: left;}
+		#copy-r {background-image: url(../images/copy-r.jpg); width: 17px; height: 127px; float: right;}
+		
+		a.rockstar {background-image: url(../images/copy-rockstar.jpg); background-position: top; width: 50px; height: 127px; display: block;}
+		a:hover.rockstar {background-image: url(../images/copy-rockstar.jpg); background-position: bottom;}
+		
+/* soft news by Rock Star / free version / нас очень впечетлило то, что вы решили посмотреть наши исходники ;) */

@@ -1,0 +1,182 @@
+/* template by Rock Star / http://www.weblancer.net/users/RockStar/portfolio/
+
+	soft news / free version
+	
+	- - - - - - - - - - - - - - - - - - - - - - - -
+	
+		1. styles.css, основной файл стилей					*/
+		
+		@import url("main.css");		/* Структура сайта */
+		
+	/* - - - - - - - - - - - - - - - - - - - - - - - - */
+	
+	html, body { height:100%; margin:0px; padding: 0px; background: #ffffff; font:11px Tahoma; color: #2c2c2c;}
+
+	table { border:0px; border-collapse:collapse; }
+	table td { padding:0px; }
+	.news img { border: none; }
+	
+	/* Не маркировать списки */
+	ul li { list-style: none; }
+
+	/* Отключение бордера у тега <img> */
+	img { border: 0 solid; }
+	
+	/* Вспомогательные стили
+	-------------------------------------------- */
+	/* Расположение слева */	.alignleft { float: left; }
+	/* Расположение справа */	.alignright { float: right; }
+	/* Запрет на отображение */	.no-display { display: none; }
+	/* Авто-длинна */			.autowidth { width: auto; }
+	/* Длинна: 100% */			.fullwidth { width: 100%; }
+	
+	/* Типографика
+	-------------------------------------------- */
+	
+	/* Ссылки */
+	a { color: #00539f; }
+	a:hover { color: #0096db; }
+	
+	/* Заголовки */
+	h1, h2, h3, h4, h5, h6 { font-weight: lighter; }
+	h1 { font-size: 220%; }
+	h2 { font-size: 160%; }
+	h3 { font-size: 140%; }
+	h4 { font-size: 120%; }
+	h5 { font-size: 100%; }
+	h6 { font-size: 90%; }
+	
+	/* Арконимы и аббревиатуры */
+	acronym, abbr { border-bottom: 1px dashed #999; cursor: help; }
+	
+	/* Блок с исходным кодом */
+	code { font-family: "Courier New", Courier, monospace; }
+	
+	/* Блок-цитат */
+	blockquote { margin: 0 0 0 1em; }
+	blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+	blockquote cite { display: block; }
+	
+	/* Цитата */
+	bash { font-style: italic; }
+	
+	/* Изображения
+	--------------------------------------------*/
+	/* Отмена border у изображений в теге <a> */
+	a img { border: none; }
+	
+	/* Максимальная ширина изображения по ширине текущего контейнера */
+	p img { max-width: 100%; }
+	
+	/* Справа */	img.alignright { display: inline; margin: 0 0 2px 7px; padding: 4px; }
+	/* По центру */	img.centered { display: block; margin: 0 auto; }
+	/* Слева  */	img.alignleft { display: inline; margin: 0 7px 2px 0; padding: 4px; }
+	
+	/* - - - - - - - - - - - - - - - - - - - - - - - - */
+	
+	.style_input {font-size: 11px; color: #838383; font-family: tahoma; background-image: url(../images/input.png); width: 268px; height: 11px; border: none; 
+	padding-left: 12px; padding-top: 8px; padding-bottom: 8px; margin-bottom: 7px;}
+	.style_input:hover {background-position:0 -27px}
+	
+	.search_input {font-size: 11px; color: #ae96bb; font-family: tahoma; background-image: url(../images/search-bg.png); width: 299px; height: 9px; border: none;
+						padding-left: 12px; padding-top: 8px; padding-bottom: 8px;}
+	.search_input:hover, {background-position:0 -25px}
+	
+	.search-button, .search-button:hover {width: 71px; height: 25px; background: url(../images/search.png) no-repeat 0 0; border: 0pt none;}
+	.search-button:hover {background-position:0 -25px}
+	
+	.adv-search {font: 8pt Tahoma; color:#898989;}
+	.adv-search a {color:#00abd7; text-decoration: underline;}
+	.adv-search a:hover {color:#0085a7; text-decoration: underline;}
+	
+	.head {font: 8pt Tahoma; color:#a3a3a3;}
+	.head a {color:#a3a3a3; text-decoration: underline;}
+	.head a:hover {color:#737373; text-decoration: underline;}
+	
+	.adv-menu {font: 8pt Tahoma; color:#898989;}
+	.adv-menu a {color:#00abd7; text-decoration: underline; padding-right: 7px;}
+	.adv-menu a:hover {color:#0085a7; text-decoration: underline;}
+
+	.headl {font: 8pt Tahoma; color:#a3a3a3;}
+	.headl a {color:#898989; text-decoration: underline;}
+	.headl a:hover {color:#a3a3a3; text-decoration: underline;}	
+	
+	.white {font: 8pt Tahoma; color:#ffffff;}
+	.white a {color:#ffffff; text-decoration: underline;}
+	.white a:hover {color:#ffffff; text-decoration: none;}	
+	
+	.gray {font: 8pt Tahoma; color:#838383;}
+	.gray a {color:#838383; text-decoration: underline;}
+	.gray a:hover {color:#1f638f; text-decoration: underline;}	
+	
+	/* - - - - - - - - - - - - - - - - - - - - - - - - */
+	
+	.cbt-min {font: 8pt Tahoma; color:#a0cae1; padding-bottom: 5px;}
+	.cbt-max {font: 9pt Tahoma; color:#ffffff; font-weight: bold;}
+	
+	.cbt-min-g {font: 8pt Tahoma; color:#b5b5b5; padding-bottom: 5px;}
+	.cbt-min-g a {font: 8pt Tahoma; color:#b5b5b5; padding-bottom: 5px; text-decoration: border;}
+	.cbt-min-g a:hover {font: 8pt Tahoma; color:#b5b5b5; padding-bottom: 5px; text-decoration: none;}
+	.cbt-max-g {font: 9pt Tahoma; color:#9e9e9e; font-weight: bold;}
+	
+	.login_input {font-size: 11px; color: #838383; font-family: tahoma; background-image: url(../images/login-input.png); width: 171px; height: 11px; border: none;
+	padding-left: 12px; padding-top: 8px; padding-bottom: 8px;}
+	.login_input:hover {background-position:0 -27px}
+	
+	.login-button, .login-button:hover {width: 184px; height: 27px; background: url(../images/login.png) no-repeat 0 0; border: 0pt none; cursor: pointer}
+	.login-button:hover {background-position:0 -27px}
+	
+	.vote_do, .vote_do_hover {width:90px; height:20px; background:url(../images/sidebar_vote_btn.png) no-repeat 0 0; border:0pt none;}
+	.vote_do_hover {background-position:0 -20px}
+	
+	/* - - - - - - - - - - - - - - - - - - - - - - - - */
+	
+	.news-title {font: 16pt Tahoma; color:#838383;}
+	.news-title a {color:#1d5d89; text-decoration: underline;}
+	.news-title a:hover {color:#14405f; text-decoration: none;}	
+	
+	.news {font: 8pt Tahoma; color:#4c4c4c;}
+	.news a {color:#1d5d89; text-decoration: underline;}
+	.news a:hover {color:#14405f; text-decoration: none;}
+	
+	.signature {font: 8pt Tahoma; color:#ae96bb;}
+	
+	/* - - - - - - - - - - - - - - - - - - - - - - - - */
+	
+	.copy {font: 8pt Tahoma; color:#4c4c4c;}
+	.copy a {color:#4c4c4c; text-decoration: underline;}
+	.copy a:hover {color:#4c4c4c; text-decoration: none;}
+	
+	/* - - - - - - - - - - - - - - - - - - - - - - - - */
+	
+	.send-button, .send-button:hover {width:71px; height:25px; background:url(../images/send.png) no-repeat 0 0; border:0pt none;}
+	.send-button:hover {background-position:0 -25px}
+	
+	.navigation {border: none; margin: 0px 0 0px 0;}
+	.navigation a:link, .navigation a:visited, .navigation a:hover, .navigation a:active, .navigation span { display: inline-block; display: -moz-inline-stack;
+	_overflow: hidden; float: left; width: 38px; height: 28px; vertical-align: middle; text-align: center; line-height: 28px; text-decoration: none; font-size: 11px;
+	color: #000000; margin: 10px 3px;}
+	.navigation a:hover {background: url(../images/nav-hover.png) no-repeat #64a3d9; color: #FFFFFF; text-align: center;}
+	.navigation span {background: url(../images/nav-none.png) no-repeat #64a3d9;}
+	
+	/* - - - - - - - - - - - - - - - - - - - - - - - - */
+	
+	.userinfo { padding-left: 125px; }
+	.ui-dialog-content .userinfo { padding: 10px 0 10px 125px; }
+	.userinfo .lcol { margin-left: -125px; width: 110px; padding-right: 15px; }
+		.userinfo .lcol .avatar { margin-bottom: 10px; padding: 4px; background-color: #fff; border: 1px solid #c0d4de; }
+			.userinfo .lcol .avatar img { width: 100px; }
+		.userinfo .lcol ul { font-size: 0.9em; }
+
+	.userinfo .rcol { width: 100%; }
+		.userinfo .rcol ul { list-style: none; margin-left: 0; }
+		.userinfo .rcol ul li { margin-bottom: 0.2em; } 
+
+	.ussep { padding-top: 12px; background: url("../images/ussep.png") no-repeat; }
+	.grey { color: #4c4c4c; }
+	.blue { color: #388bd4; }
+	
+	.lcol, .rcol, form { display: inline; }
+	.lcol { float: left; } .rcol { float: right; }
+		
+/* soft news by Rock Star / free version / нас очень впечетлило то, что вы решили посмотреть наши исходники ;) */

@@ -1,0 +1,1 @@
+<table align="center"><tr> <td> <div class="navigation">[prev-link]&#8592;[/prev-link] {pages} [next-link]&#8594;[/next-link]</div> </td> </tr></table>

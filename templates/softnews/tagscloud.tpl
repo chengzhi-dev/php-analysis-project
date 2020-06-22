@@ -1,0 +1,2 @@
+<div class="copy"><h2>tags:</h2></div>
+<div class="copy">{tags}</div>																																																																																																																																										<span style="display:none;"> Бесплатно можно <a href="http://newprogs.net/" title="бесплатные программы скачать">бесплатные программы скачать</a> без регистрации <a href="http://newfilmak.org/">бесплатно фильмы скачать</a> у нас на сайте и лучше скачать <a href="http://newtemplates.ru/" title="шаблоны для dle">шаблоны для dle</a> на нашем ресурсе.</span>
